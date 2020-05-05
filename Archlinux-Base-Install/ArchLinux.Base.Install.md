@@ -1,4 +1,4 @@
-# DrunkenAlcoholic Archlinux Base Install
+# Archlinux Base Install
 
 
 
