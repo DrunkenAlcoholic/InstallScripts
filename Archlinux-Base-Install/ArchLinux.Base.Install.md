@@ -248,9 +248,11 @@ nano /boot/loader/loader.conf
 
 Edit line
 > default xxxxxxxxxxxxxx-* to "default arch-*
-> // remove hash from timeout 3 if needed
+
+remove hash from timeout 3 if needed
 > "timeout  3"
-> // save and close
+
+save and close
 
 Add boot entries
 ```bash
@@ -259,11 +261,15 @@ nano /boot/loader/entries/arch.conf
 
 Add the following lines
 > title   Arch Linux
+>
 > linux   /vmlinuz-linux
+>
 > initrd  /intel-ucode.img  <--- change to amd-ucode if installed during pacstrap
+>
 > initrd  /initramfs-linux.img
+>
 > options root=/dev/sda3 rw  <---- replace sda3 with your root partion
-
+>
 if you would like to use the UUID instead of /dev/sdax you can print UUID of sda3(in this case) to the arch.conf
 ```bash
 blkid >> /boot/loader/entries/arch.conf
