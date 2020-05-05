@@ -157,9 +157,7 @@ nano /etc/locale.gen
 ```
 
 un-comment your locale, example Australia English
-```
-en_AU.UTF-8 UTF8
-```
+> en_AU.UTF-8 UTF8
 
 Save and exit, then generate locale
 ```bash
