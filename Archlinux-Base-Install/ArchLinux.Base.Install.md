@@ -344,7 +344,7 @@ $ makepkg -si
 
 
 
-## INSTALL X
+## INSTALL XORG
 ```bash
 $ sudo pacman -S xorg-server xorg-xinit xorg-apps xterm 
 ```
