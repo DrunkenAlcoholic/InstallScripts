@@ -191,6 +191,11 @@ insert the following into /etc/hosts, Replacing "Archlinux" with your chosen hos
 
 
 ## SET NETWORK
+if using WiFi install the folllowing
+```bash
+pacman -S wireless_tools wpa_supplicant 
+```
+Then install networkmanger, optional to install "network-manager-applet" as well if you intend on installing a desktop environment.
 ```bash
 pacman -S networkmanager
 systemctl enable NetworkManager
