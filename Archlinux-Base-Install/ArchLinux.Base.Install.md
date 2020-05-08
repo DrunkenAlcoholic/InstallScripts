@@ -311,8 +311,14 @@ shutdown now
 ## ENABLE WIFI
 if you installed using wifi-menu then you will need to setup wifi after logging in, Otherwise 
 skip this step if you installed using ethernet. Assuming you installed Networkmanager 
-and enabled it, its just matter of running nmcli that comes with Networkmanager.
+and enabled it, its just matter of running nmcli or mntui that comes with Networkmanager.
 network-manager-applet can be installed once you have installed a desktop or window manager.
+
+Terminal GUI Wifi
+```bash
+$ mntui
+```
+OR 
 
 List networks
 ```bash
