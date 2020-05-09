@@ -316,7 +316,7 @@ network-manager-applet can be installed once you have installed a desktop or win
 
 Terminal GUI Wifi
 ```bash
-$ mntui
+$ nmtui
 ```
 OR 
 
